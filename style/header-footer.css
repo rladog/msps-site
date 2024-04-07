@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: stretch;
+}
+
+.content {
+  flex: 1;
+}
+
+.main-header {
+  z-index: 3;
+  position: sticky;
+  top: 0;
+  display: flex;
+  background-color: #121a46;
+  color: white;
+  /* background-color: white; */
+  /* color: #121a46; */
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  min-width: 100%;
+  border-bottom: #eded56 solid 3px;
+  overflow: hidden;
+}
+
+.main-header-links {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 26px;
+}
+
+.main-header-link-wrapper:first-child {
+  border-left: none;
+}
+
+.main-header-link-wrapper:last-child {
+  border-right: none;
+}
+
+.main-header-link-wrapper {
+  /* border: 3px solid #eded56; */
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-header-links a {
+  color: white;
+  /* color: #eded56; */
+  /* color: #121a46; */
+
+  text-decoration: none;
+}
+
+.main-header-logo-container {
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.main-header-links div {
+  font-size: 20px;
+}
+
+.main-footer {
+  display: flex;
+  /* background-color: #121a46; */
+  background-color: white;
+  border-top: 2px solid #eded56;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.main-footer-partnership {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.main-footer-partnership-text {
+  color: #121a46;
+  width: 90px;
+  margin-right: 30px;
+}
+
+.main-footer-partnership-logo {
+  display: flex;
+  align-items: center;
+  width: 490px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.main-footer-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+
+.main-footer-contact-text {
+  color: #121a46;
+}
+
+.main-footer-contact-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.main-footer-contact-image-wrapper {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}

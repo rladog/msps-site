@@ -1,0 +1,90 @@
+* {
+  color: white;
+}
+
+.body {
+  background-color: #121a46;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 1;
+  background-color: #121a46;
+}
+
+.content > div {
+  flex: 1;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.home-content-picture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.home-content-picture img {
+  border: 8px solid #eded56;
+  border-image: linear-gradient(45deg, #121a46, #eded56) 1;
+}
+
+.home-content-text-title {
+  margin-top: 2%;
+  font-size: 60px;
+}
+
+.home-content-text-subtitle {
+  margin-top: 2%;
+  font-size: 36px;
+}
+
+.home-content-text-involve {
+  outline: 1px solid black;
+  text-align: center;
+  height: 300px;
+}
+
+.home-content-motto,
+.home-content-recruit {
+  flex-basis: auto;
+  text-align: center;
+  height: 400px;
+}
+
+.home-content-motto {
+  margin-top: 15%;
+}
+
+.home-content-motto-title {
+  font-size: 50px;
+}
+
+.home-content-motto-text {
+  margin-top: 3%;
+  font-size: 24px;
+}
+
+.home-content-recruit-title {
+  font-size: 50px;
+}
+
+.home-content-recruit-text-wrapper {
+  margin-top: 2%;
+}
+
+.home-content-recruit-text {
+  margin-bottom: 1%;
+  font-size: 20px;
+}
+/* [class|="home-content"] {
+  outline: 1px solid black;
+  text-align: center;
+  height: 300px;
+  line-height: 300px;
+} */
