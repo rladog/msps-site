@@ -50,22 +50,22 @@
   height: 300px;
 }
 
-.home-content-motto,
+.home-content-objective,
 .home-content-recruit {
   flex-basis: auto;
   text-align: center;
   height: 400px;
 }
 
-.home-content-motto {
+.home-content-objective {
   margin-top: 15%;
 }
 
-.home-content-motto-title {
+.home-content-objective-title {
   font-size: 50px;
 }
 
-.home-content-motto-text {
+.home-content-objective-text {
   margin-top: 3%;
   font-size: 24px;
 }
